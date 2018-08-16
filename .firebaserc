@@ -1,5 +1,6 @@
 {
   "projects": {
-    "staging": "go-go-late-209a6"
+    "staging": "go-go-late-209a6",
+    "default": "go-go-late-209a6"
   }
 }
