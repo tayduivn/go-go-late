@@ -26,7 +26,7 @@ npm install firebase --save
 npm install request --save
 ```
 
-### 7、建立 functions/.env
+### 7、進到 functions 目錄下，建立 .env 設定檔
 
 ### 8、打開 [LINE Developers](https://developers.line.me/) 並 Create new channel。並將 Channel access token 及 Channel secret 分別填入 .env 設定檔。
 ``` csharp
@@ -44,4 +44,15 @@ storageBucket = "XXXXX"
 messagingSenderId = "XXXXX"
 ```
 
-### 9、打開
+### 9、本地端執行 Firebase Functions
+``` csharp
+firebase serve --only functions
+```
+
+### 10、執行成功
+![GITHUB](https://firebasestorage.googleapis.com/v0/b/go-go-late-209a6.appspot.com/o/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202018-08-17%20%E4%B8%8A%E5%8D%8812.07.43.png?alt=media&token=a2624de0-f8c7-400e-a2de-d22e0d9ba0cc "functions圖示")
+
+
+
+
+
